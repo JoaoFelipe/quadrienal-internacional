@@ -44,3 +44,8 @@ $ python 3.download_professor_pids.py
 
 (Em teoria, daria para fazer a análise diretamente pelo arquivo geral `dblp.xml`, mas processar todas as publicações de um arquivo com 4GB foi complicado - mesmo com sax - e achei mais simples obter páginas individuais)
 
+6. Execute `4.extract_publications_and_collaborators.py` para extrair publicações e colaboradores dos professores
+
+```
+$ python 4.extract_publications_and_collaborators.py -y 2021 2022 2023 2024
+```
